@@ -13,7 +13,7 @@ while True:
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     # Define range for orange color
-    lower_orange = np.array([10, 100, 100])
+    lower_orange = np.array([10, 120, 200])
     upper_orange = np.array([25, 255, 255])
 
     # Create mask
